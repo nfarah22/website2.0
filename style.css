@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background:green;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:black
+}
+.c-site-header{
+  font-size:50px;
+  text-align:center;
+  color:bisque;
+}
+.container{
+  font-size: 20px;
+    min-height: 100px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+}
+.intro{
+  grid-area:1/1/span 2/span 2;
+
+}
+h1{
+  font-size: 70px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #04AA6D;
+}
+
+#image1{
+  grid-area:1/ 2//span 3;
+   height:350px;
+  width:500px;
+}
+.about{
+  grid-area:2/1/span 2/ span 2;
+  font-family:courier new;
+  font-size: 20px;
+  color:teal;
+}
+.story{
+  text-align:left;
+  font-family:Copperplate;
+  font-size: 30px;
+  color:black;
+  grid-area:2/2/2/  1 ;font-weight:bold;
+  
+
+}
+.hobbies{
+  text-align:
+  font-family:Copperplate;
+  font-size: 30px;
+  color:	#8a2be2;
+  font-weight:bold;
+  grid-area:2/2/3/ span 2 ;
+ 
+  
+}
+.comment{
+  font-family:copperplate;
+  color:black;
+  font-size:20px;
+  grid-area:3/1/3/ span 3;
+  
+  
+}
+.video{
+  grid-area:3/3/3/ span 3;
+}
+
+.navbar{
+grid-area:1/1/span 1/span 1;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  color: teal;
+  text-decoration: none;
+  display:inline-block;
+  padding: 5px;
+  background-color: #dddddd;
+}
+.me{
+    grid-area:3/1/span 3/ span 2;
+}
+
+
+.c-site-footer{
+  color: bisque;
+}
